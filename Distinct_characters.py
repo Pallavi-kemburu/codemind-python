@@ -1,9 +1,10 @@
-s=input()
-s=s.lower()
-k=""
-for i in s:
-    if s.count(i)==1 and i!=' ':
-        k+=i
-k=sorted(k)
-l=''.join(k)
-print(l)
+a=input().lower()
+c=[]
+for i in a:
+    if i is ' ':
+        continue
+    if i not in c:
+        c.append(i)
+c=sorted(c)
+c=''.join(c)
+print(c)

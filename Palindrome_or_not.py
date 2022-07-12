@@ -8,5 +8,5 @@ for i in range(len(s1)):
         c=0
         print(False)
         break
-if c>0:
+if c==len(s1):
     print(True)

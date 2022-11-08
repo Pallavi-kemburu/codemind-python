@@ -1,0 +1,9 @@
+s=input()
+n=int(input())
+c=s.count('a')
+k=n//len(s)
+l=n%len(s)
+c1=c*k
+s1=s[:l]
+c2=s1.count('a')
+print(c1+c2)
